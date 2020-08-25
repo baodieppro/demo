@@ -8,7 +8,7 @@ import urllib.parse as urlparse
 SEARCH_URL = 'https://www.google.com/search?gbv=1&q='
 AUTOCOMPLETE_URL = 'https://suggestqueries.google.com/complete/search?client=toolbar&'
 
-MOBILE_UA = '{}/5.0 (Android 0; Mobile; rv:54.0) Gecko/54.0 {}/59.0'
+MOBILE_UA = '{}/5.0 (X11; {} x86_64; rv:75.0) Gecko/20100101 {}/75.0'
 DESKTOP_UA = '{}/5.0 (X11; {} x86_64; rv:75.0) Gecko/20100101 {}/75.0'
 
 # Valid query params
@@ -21,7 +21,7 @@ def gen_user_agent(is_mobile):
     linux = random.choice(['Win', 'Sin', 'Gin', 'Fin', 'Kin']) + 'ux'
 
     if is_mobile:
-        return DESKTOP_UA.format(mozilla, firefox)
+        return MOBILE_UA.format(mozilla, firefox)
 
     return DESKTOP_UA.format(mozilla, linux, firefox)
 
