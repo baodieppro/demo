@@ -32,7 +32,7 @@ body {
     height: 40px;
     outline: none;
     font-size: 24px;
-    color: #685e79;
+    color: #4fba69;
     border-radius: 10px 10px 0 0;
     max-width: 600px;
     background: rgba(0, 0, 0, 0);
@@ -45,8 +45,8 @@ body {
 #search-submit {
     width: 100%;
     height: 40px;
-    border: 1px solid #685e79;
-    background: #685e79;
+    border: 1px solid #4fba69;
+    background: #4fba69;
     text-align: center;
     color: #fff;
     cursor: pointer;
@@ -70,7 +70,7 @@ button::-moz-focus-inner {
 .collapsible {
     outline: 0;
     background-color: rgba(0, 0, 0, 0);
-    color: #685e79;
+    color: #4fba69;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -88,7 +88,7 @@ button::-moz-focus-inner {
 
 .collapsible:after {
     content: '\002B';
-    color: #685e79;
+    color: #4fba69;
     font-weight: bold;
     float: right;
     margin-left: 5px;
@@ -104,7 +104,7 @@ button::-moz-focus-inner {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    background-color: #685e79;
+    background-color: #4fba69;
     color: white;
     border-radius: 0 0 10px 10px;
 }
