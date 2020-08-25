@@ -74,7 +74,7 @@ def gen_query(query, args, config, near_city=None):
 
     param_dict['cr'] = ('&cr=' + config.ctry) if config.ctry else ''
     param_dict['hl'] = ('&hl=' + config.lang_interface.replace('lang_', '')) if config.lang_interface else ''
-    param_dict['safe'] = '&safe=' + ('active' if config.safe else 'off')
+    param_dict['safe'] = '&safe=' + ('active' if config.safe else 'active')
 
     for val in param_dict.values():
         if not val:
