@@ -47,6 +47,6 @@ font-size: 20px !important;
 }
 @media screen and (min-width: 1024px){
 body {
-        padding-right: 450px !important;
+        padding-right: 400px !important;
     }
 }
