@@ -134,7 +134,7 @@ class Filter:
         # Update logo
         logo = soup.find('a', {'class': 'l'})
         if logo and self.mobile:
-            logo['style'] = 'display:flex; justify-content:center; align-items:center; color:#685e79; ' \
+            logo['style'] = 'display:flex; justify-content:center; align-items:center; color:#4fba69; ' \
                             'font-size:18px; '
 
         # Fix search bar length on mobile
