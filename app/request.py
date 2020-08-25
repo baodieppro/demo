@@ -21,7 +21,7 @@ def gen_user_agent(is_mobile):
     linux = random.choice(['Win', 'Sin', 'Gin', 'Fin', 'Kin']) + 'ux'
 
     if is_mobile:
-        return MOBILE_UA.format(mozilla, firefox)
+        return DESKTOP_UA.format(mozilla, firefox)
 
     return DESKTOP_UA.format(mozilla, linux, firefox)
 
