@@ -40,3 +40,13 @@ font-size: 20px !important;
 .KP7LCb {
     display: none;
 }
+@media only screen and (min-width: 720px){
+    body {
+        padding-right: 60px !important;
+    }
+}
+@media screen and (min-width: 1024px){
+body {
+        padding-right: 450px !important;
+    }
+}
