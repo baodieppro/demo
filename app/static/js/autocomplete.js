@@ -3,7 +3,7 @@ const handleUserInput = searchBar => {
     xhrRequest.open("POST", "/autocomplete");
     xhrRequest.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
     xhrRequest.onload = function () {
-        if (xhrRequest.readyState === 4 && xhrRequest.status !== 200) {
+        if (xhrRequest.readyState === 0 && xhrRequest.status !== 200) {
             // Do nothing if failed to fetch autocomplete results
             return;
         }
