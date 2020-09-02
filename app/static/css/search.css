@@ -38,10 +38,10 @@ color: #003DBF !important;
 font-size: 20px !important;
 }
 .KP7LCb {
-    display: none;
+    display: none !important;
 }
 .BmP5tf {
-    display: none;
+    display: none !important;
 }
 @media screen and (min-width: 1024px){
 body {
