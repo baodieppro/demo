@@ -12,12 +12,13 @@
                         <input id="search-bar" autocapitalize="none" autocomplete="off" class="noHIxc" name="q"
                                spellcheck="false" placeholder="Search the web..." type="text" value="{{ query }}"
                                style="background-color: {{ '#000' if dark_mode else '#fff' }};
-                                      font-size: 18px;
+                                       font-size: 18px;
+                                       padding-right: 55px;
                                        color: {{ '#685e79' if dark_mode else '#000' }};
                                        border: {{ '1px solid #685e79' if dark_mode else '' }}">
                         <input name="tbm" value="{{ search_type }}" style="display: none">
                         <div class="sc"></div>
-                        <div class="d-md-block" style="background-size: 14px;
+                        <div onclick="document.getElementById('search-bar').value = ''" class="d-md-block" style="background-size: 14px;
     padding: 4px 8px;
     width: 30px;
     height: 26px;
@@ -46,12 +47,13 @@
                         <input id="search-bar" autocapitalize="none" autocomplete="off" class="noHIxc" name="q"
                                spellcheck="false" placeholder="Search the web..." type="text" value="{{ query }}"
                                style="background-color: {{ '#000' if dark_mode else '#fff' }};
-                                      font-size: 18px;
+                                       font-size: 18px;
+                                       padding-right: 55px;
                                        color: {{ '#685e79' if dark_mode else '#000' }};
                                        border: {{ '1px solid #685e79' if dark_mode else '' }}">
                         <input name="tbm" value="{{ search_type }}" style="display: none">
                         <div class="sc"></div>
-                        <div class="d-md-block" style="background-size: 14px;
+                        <div onclick="document.getElementById('search-bar').value = ''" class="d-md-block" style="background-size: 14px;
     padding: 4px 8px;
     width: 30px;
     height: 26px;
